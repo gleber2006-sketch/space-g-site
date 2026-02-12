@@ -6,10 +6,10 @@ import { Mail, MapPin, Phone, Send } from 'lucide-react';
 
 const Contact = () => {
     return (
-        <section id="contato" className="py-24 relative overflow-hidden">
+        <section id="contato" className="py-32 relative overflow-hidden bg-background">
             <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="container-custom relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}

@@ -55,8 +55,8 @@ const services = [
 
 const Services = () => {
     return (
-        <section id="servicos" className="py-24 relative overflow-hidden">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="servicos" className="py-24 relative overflow-hidden bg-background">
+            <div className="container-custom">
                 <div className="text-center mb-16">
                     <motion.h6
                         initial={{ opacity: 0 }}

@@ -7,8 +7,8 @@ import { Rocket, ShieldCheck, Zap } from 'lucide-react';
 
 const About = () => {
     return (
-        <section id="quem-somos" className="py-24 bg-white/[0.02] border-y border-white/5">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="quem-somos" className="py-32 bg-white/[0.01] border-y border-white/5">
+            <div className="container-custom">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
