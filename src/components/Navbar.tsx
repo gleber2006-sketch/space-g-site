@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { MessageCircle } from 'lucide-react';
 
@@ -9,9 +10,14 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="text-2xl font-bold tracking-tighter hover:opacity-80 transition-opacity">
-                            <span className="text-foreground">SPACE-</span>
-                            <span className="text-secondary">G</span>
+                        <Link href="/" className="relative w-12 h-12 hover:opacity-80 transition-opacity">
+                            <Image
+                                src="/logo.png"
+                                alt="Space-G Logo"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
                         </Link>
                     </div>
 
