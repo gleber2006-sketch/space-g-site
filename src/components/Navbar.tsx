@@ -17,11 +17,17 @@ const Navbar = () => {
 
                     {/* Navigation Links - Desktop */}
                     <div className="hidden md:flex items-center space-x-8">
-                        <Link href="#servicos" className="text-sm font-medium hover:text-secondary transition-colors">
+                        <Link href="#servicos" className="text-sm font-medium hover:text-secondary transition-colors text-white/70">
                             Serviços
                         </Link>
-                        <Link href="#quem-somos" className="text-sm font-medium hover:text-secondary transition-colors">
-                            Quem somos
+                        <Link href="#portfolio" className="text-sm font-medium hover:text-secondary transition-colors text-white/70">
+                            Portfólio
+                        </Link>
+                        <Link href="#quem-somos" className="text-sm font-medium hover:text-secondary transition-colors text-white/70">
+                            Sobre
+                        </Link>
+                        <Link href="#contato" className="text-sm font-medium hover:text-secondary transition-colors text-white/70">
+                            Contato
                         </Link>
                         <Link
                             href="http://wa.link/aj2hro"
